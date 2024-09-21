@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -46,7 +46,9 @@ namespace BT2
                     case 7:
                         return;
                     default:
-                        Console.WriteLine("Chức năng không tồn tại.");
+                        Console.WriteLine("---------------------------------------------");
+                        Console.WriteLine("Chức năng không tồn tại!");
+                        Console.WriteLine("Press Enter to continue...");
                         break;
                 }
                 Console.ReadLine();
@@ -188,6 +190,7 @@ namespace BT2
             {
                 Console.WriteLine("Ngày, tháng, năm không hợp lệ.");
             }
+            Console.WriteLine("Press Enter to go back...");
         }
     }
 }
